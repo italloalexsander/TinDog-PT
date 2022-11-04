@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    text-align: left;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat'
+}
+
+/* Section */
+
+.colored{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white{
+    background-color: white;
+}
+
+/* headings */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+/*Download buttons*/
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.iphone{
+    transform: rotate(20deg);
+    overflow: hidden;
+    width: 275px;
+    position: absolute;
+    right: 25%;
+}
+
+#title{
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* features */
+
+#features{
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+    margin: 75px 0;
+}
+
+.feature-icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icons:hover{
+    color: #ff4c68
+}
+
+.feature-titles{
+    font-size: 1.5rem;
+}
+
+.feature-text{
+    color: #8f8f8f;
+}
+
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+/* press */
+
+#press{
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+/* footer */
+
+#footer p{
+    color: #8f8f8f;
+    font-weight: normal;
+}
+
+.footer-icon{
+    margin: 10px;
+}
