@@ -1,2 +1,2 @@
-**TinDog Versão PT-BR
-*Feito Usando BOOTSTRAP 5.2
+## TinDog Versão PT-BR
+#### Feito Usando bootstrap 5.2
